@@ -26,11 +26,11 @@ DESCRIPTION
 ===========
 Adapts a readable byte stream to produce a stream of lines.
 
-Constructor
------------
-The lines-adapter module is a function which constructs line streams from byte streams and an optional
-encoding argument. The supported encodings are those supported by Buffer.toString(). If no
-encoding is specified, 'utf8' is assumed.
+lines(stream,encoding)
+----------------------
+The lines-adapter module is a function which constructs a line stream from a byte stream and an optional
+encoding argument. The supported encodings are those supported by Buffer.toString(). If no encoding is 
+specified, 'utf8' is assumed.
 
 Event: 'data'
 -------------
@@ -50,13 +50,11 @@ EXAMPLES
 ========
 Two examples are provided in the examples/ directory: count-lines and copy-lines.
 
-<pre>
- $> echo foobar | node examples/count-lines.js
- 0
+    $> echo foobar | node examples/count-lines.js
+    0
 
- $> echo foobar | node exmaples/copy-lines.js
- foobar
-</pre>
+    $> echo foobar | node exmaples/copy-lines.js
+    foobar
 
 SIMILAR PACKAGES
 ================
