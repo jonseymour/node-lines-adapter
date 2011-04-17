@@ -51,7 +51,7 @@ EXAMPLES
 Two examples are provided in the examples/ directory: count-lines and copy-lines.
 
     $> echo foobar | node examples/count-lines.js
-    0
+    1
 
     $> echo foobar | node exmaples/copy-lines.js
     foobar
