@@ -53,8 +53,15 @@ Two examples are provided in the examples/ directory: count-lines and copy-lines
     $> echo foobar | node examples/count-lines.js
     1
 
-    $> echo foobar | node exmaples/copy-lines.js
+    $> (echo foo; echo bar) | node examples/count-lines.js
+    2
+
+    $> echo foobar | node examples/copy-lines.js
     foobar
+
+    $> (echo foo; echo bar) | node examples/copy-lines.js
+    foo
+    bar
 
 SIMILAR PACKAGES
 ================
