@@ -16,7 +16,7 @@ SYNOPSIS
     )
     .end(
         'end',
-        function(end) {
+        function() {
             // invoked at the end of stream
         }
     );
