@@ -41,6 +41,11 @@ Event: 'end'
 ------------
 Emitted when the stream has received an EOF. Indicates that no more 'data' events will happen.
 
+INSTALLATION
+============
+
+	npm install lines-adapter
+
 EXAMPLES
 ========
 Two examples are provided in the examples/ directory: count-lines and copy-lines.
