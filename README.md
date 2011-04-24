@@ -73,7 +73,7 @@ Floby's [node-lines](https://github.com/Floby/node-lines) package provides simil
 library although it has a different philosophy. In particular node-lines emits 'line' events whereas
 node-lines-adapter emits 'data' events.
 
-Peteris Krumin's node-lazy solution has a much better and more general solution to this problem.
+Peteris Krumin's [node-lazy](https://github.com/pkrumins/node-lazy) solution has a much better and more general solution to this problem.
 
 For example:
 
