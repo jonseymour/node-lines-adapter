@@ -23,7 +23,7 @@ SYNOPSIS
     );
 </pre>
 
-Note that this lines-adapter is now implemnted in terms of and deprecated in favour of node-lazy.
+Note that this lines-adapter is now implemented in terms of and deprecated in favour of node-lazy.
 Please read the ALTERNATIVES section below for details.
 
 DESCRIPTION
@@ -84,7 +84,7 @@ For example:
         .forEach(
             function(line)
             {
-                console.log(line);
+                console.log(line.toString());
             }
         );
 

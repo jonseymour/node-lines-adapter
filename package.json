@@ -1,7 +1,7 @@
 {
   "name": "lines-adapter",
   "description": "Line-oriented Evented I/O",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "author": "Jon Seymour <jon.seymour@gmail.com>",
   "main": "lib/lines-adapter",
   "homepage": "https://github.com/jonseymour/node-lines-adapter",
