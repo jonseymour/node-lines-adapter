@@ -12,6 +12,9 @@
   "directories": {
     "lib": "lib"
   },
+  "dependencies": {
+    "lazy": "*"
+  },
   "engines": {
     "node": "*"
   }
